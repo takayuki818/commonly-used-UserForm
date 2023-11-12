@@ -9,5 +9,8 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = True
 Option Explicit
 Private Sub CommandButton1_Click()
-    UserForm1.Show
+    日付入力.Show
+End Sub
+Private Sub CommandButton2_Click()
+    Call 時間のかかるコードサンプル
 End Sub
