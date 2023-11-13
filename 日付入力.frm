@@ -1,7 +1,7 @@
 VERSION 5.00
 Begin {C62A69F0-16DC-11CE-9E98-00AA00574A4F} 日付入力 
    Caption         =   "UserForm1"
-   ClientHeight    =   1848
+   ClientHeight    =   1872
    ClientLeft      =   108
    ClientTop       =   456
    ClientWidth     =   2820
@@ -15,7 +15,7 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Option Explicit
 Function 代入先() As Range
-    Set 代入先 = ActiveCell
+    Set 代入先 = ActiveCell 'ここで日付代入先を指定
 End Function
 Private Sub UserForm_Initialize()
     TextBox1.IMEMode = fmIMEModeDisable 'IME入力モードを無効化
